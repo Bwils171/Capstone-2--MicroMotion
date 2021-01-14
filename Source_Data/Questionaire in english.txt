@@ -1,0 +1,11 @@
+Questionaire:
+
+Column E: hours per week listen to music
+Column F: sing/produce/create music per week
+COlumn G: hours per week dance to music
+Column H: hours per week exercise not music related
+Column I: do you find it tiring (5 yes, 1 No)
+Column J: How much did you feel you were moving (5 lots, 1 none)
+Column K: Do you feel like you were moving more when enjoying (5 lots, 1 none)
+Column L: Eyes open? (y, n or back and forth)
+Column M: Knees Locked? (y, n, bank and forth)
