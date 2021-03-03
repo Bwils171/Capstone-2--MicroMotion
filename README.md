@@ -15,3 +15,9 @@ https://physionet.org/content/music-motion-2012/1.0/
 https://www.physionet.org/content/music-motion-2015/1.0/
 
 https://github.com/fourMs/MICRO
+
+Librosa was used for sound feature extraction
+https://doi.org/10.5281/zenodo.3955228
+
+
+
