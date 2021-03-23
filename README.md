@@ -1,7 +1,7 @@
 # Capstone-2--MicroMotion
  Capstone Project about Involuntary Head Movement
 
-
+Requirements file found as micromotion_{date}.yml
 
 Data taken from:
 Gonzalez, V., Zelechowska, A., & Jensenius, A. R. (2020). MICRO Motion capture data from groups of participants standing still to auditory stimuli (2012) (version 1.0). PhysioNet. https://doi.org/10.13026/4h9d-gf10.
