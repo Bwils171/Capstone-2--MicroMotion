@@ -1,6 +1,8 @@
 # Capstone-2--MicroMotion
  Capstone Project about Involuntary Head Movement
 
+This project is currently in progress and some workbooks are in an incomplete state. After performing data cleaning and EDA on the demogrpahic, music and motion data, I am moving to start modeling using a number of techniques. The goal is to be able to predict participant movement based upon prior movement, music and the persons demographic info.
+
 Requirements file found as micromotion_{date}.yml
 
 Data taken from:
