@@ -11,11 +11,12 @@ def Xy_prep_all(df, target, a=1, b=75):
     y = df_1i[target].to_numpy()[:len(df)-cut_rows]
     cols = df_1i.drop(columns=drop_cols).columns
     participants = b-a+1
-    end_train = int((len(X) - cut_rows) * (2/3))
-    end_test = int(len(X) - cut_rows)
+    end_train = int((len(X)) * (2/3))
+    end_test = int(len(X))  
     X_train = X[:end_train, :]
     X_test = X[end_train:end_test, :]
     y_train = y[:end_train]
     y_test = y[end_train:end_test]
     
     return X_train, X_test, y_train, y_test, cols, participants, cut_rows
+
