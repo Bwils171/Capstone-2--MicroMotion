@@ -3,7 +3,7 @@ import pandas as pd
 
 def Xy_prep_all(df, target, a=1, b=75):
     df_1 = df.loc[df['PID'].between(a, b)]
-    drop_cols = ['PID', 'SID', 'target_05', 'target_10', 'target_20', 'X', 'Y','Z', 'segment']
+    drop_cols = ['PID', 'SID', 'target_1_sec', 'X', 'Y','Z', 'segment']
     df_1i = df_1.set_index('millisecond')
     participants = b-a+1
     cut_rows = int(target[-2:])*participants*10
