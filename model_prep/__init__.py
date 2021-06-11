@@ -9,3 +9,9 @@ from .cross_val import cross_val_time
 from .par_prep import Xy_prep_participants
 
 from .rand_prep import Xy_prep_random_50
+
+from .gfn import get_feature_name
+
+from .score import score_model
+
+from .predict import plot_predictions
