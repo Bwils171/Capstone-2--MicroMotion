@@ -1,5 +1,7 @@
 
 def Xy_prep_all(df, target, train_a=1, train_par=list(range(0,50)), test_par=list(range(50,75))):
+    #Takes in full dataset and outputs train and test sets based on input list of participants
+    #for training on and testing on
     import numpy as np
     import pandas as pd
     
@@ -12,9 +14,9 @@ def Xy_prep_all(df, target, train_a=1, train_par=list(range(0,50)), test_par=lis
     #set milliseconds as index
     df_train = df_train.set_index('millisecond')
  
-    #
-    train_X = df_train.drop(columns=drop_cols)#.to_numpy()
-    train_y = df_train[target]#.to_numpy()
+    #Create train datasets for X and y
+    train_X = df_train.drop(columns=drop_cols)
+    train_y = df_train[target]
     
     #Select proper participants for training
     df_test = df.loc[df['PID'].isin(test_par)]
@@ -25,7 +27,7 @@ def Xy_prep_all(df, target, train_a=1, train_par=list(range(0,50)), test_par=lis
     #set milliseconds as index
     df_test = df_test.set_index('millisecond')
     
-    
+    #Create test datasets for X and y
     test_X = df_test.drop(columns=drop_cols)
     test_y = df_test.loc[:,[target,'PID']]
         
